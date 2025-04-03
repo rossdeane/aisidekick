@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
+import { ContactForm } from "@/components/contact-form";
 import {
   Card,
   CardContent,
@@ -20,11 +21,18 @@ export default function Home() {
           <div className="flex gap-6 md:gap-10">
             <Link href="/" className="flex items-center space-x-2">
               <Image
+                src="/logo-icon-only.png"
+                alt="AI Sidekick Logo"
+                width={40}
+                height={40}
+                className="sm:hidden "
+              />
+              <Image
                 src="/logo-no-background.png"
                 alt="AI Sidekick Logo"
-                width={150}
-                height={40}
-                className="h-10 w-auto"
+                width={240}
+                height={60}
+                className="hidden sm:block"
               />
             </Link>
           </div>
@@ -57,7 +65,7 @@ export default function Home() {
 
       <main className="flex-1">
         {/* Hero Section */}
-        <section className="w-full py-12 md:py-24 lg:py-32 xl:py-48">
+        <section className="w-full py-7 md:py-24 lg:py-16 xl:py-28">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center space-y-4 text-center">
               <div className="space-y-2">
@@ -90,17 +98,24 @@ export default function Home() {
         {/* Services Section */}
         <section
           id="services"
-          className="w-full py-12 md:py-24 lg:py-32 bg-white"
+          className="w-full py-12 md:py-24 lg:py-16 bg-white"
         >
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <h2 className="text-3xl font-oswald tracking-tighter sm:text-5xl font-bold">
+                <h2 className="text-3xl font-oswald tracking-tighter sm:text-5xl font-bold pb-8">
                   🛠️ What We Offer
                 </h2>
                 <p className="max-w-[900px] text-gray-700 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Our AI solutions are designed to save you time and enhance
-                  your customer experience.
+                  AI sidekick works with small businesses like yours to help
+                  bring you the benefits of the AI revolution without spending
+                  thousands on software or hiring extra staff.
+                </p>
+
+                <p className="max-w-[900px] text-gray-700 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                  We have off-the-shelf solutions that are proven to save you
+                  time, money and bring in more business - and our expert team
+                  helps you integrate it into <i>your</i> business.
                 </p>
               </div>
             </div>
@@ -109,7 +124,7 @@ export default function Home() {
               <Card className="flex flex-col items-center text-center border-brand-accent/20">
                 <CardHeader>
                   <CardTitle className="text-xl font-oswald">
-                    📸 Social Media Caption Generator
+                    📸 Social Media Sidekick
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
@@ -125,7 +140,7 @@ export default function Home() {
               <Card className="flex flex-col items-center text-center border-brand-accent/20">
                 <CardHeader>
                   <CardTitle className="text-xl font-oswald">
-                    🤖 AI-Powered FAQ Bot
+                    🤖 Customer Support Sidekick
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
@@ -141,7 +156,7 @@ export default function Home() {
               <Card className="flex flex-col items-center text-center border-brand-accent/20">
                 <CardHeader>
                   <CardTitle className="text-xl font-oswald">
-                    📥 Smart Inbox Assistant
+                    📥 Email Sidekick
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
@@ -152,6 +167,24 @@ export default function Home() {
                   </p>
                 </CardContent>
               </Card>
+            </div>
+
+            {/* Custom Solutions Section */}
+            <div className="mt-16 text-center">
+              <h3 className="text-2xl font-oswald font-bold mb-4">
+                Have something particular in mind?
+              </h3>
+              <p className="max-w-[700px] mx-auto text-gray-700 md:text-lg mb-6">
+                If you have ideas for AI that go beyond our off-the-shelf
+                products, we'd love to help you achieve them. Reach out to us
+                for custom integration packages.
+              </p>
+              <Button
+                asChild
+                className="bg-brand-accent hover:bg-brand-accent/90 text-white"
+              >
+                <Link href="#contact">Get in Touch</Link>
+              </Button>
             </div>
           </div>
         </section>
@@ -321,34 +354,7 @@ export default function Home() {
                   Simple setup. No tech headaches. Real results.
                 </p>
               </div>
-              <div className="w-full max-w-sm space-y-2">
-                <form className="flex flex-col space-y-4">
-                  <input
-                    className="flex h-10 w-full rounded-md border border-input bg-white px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-accent focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
-                    placeholder="Your Name"
-                    type="text"
-                    required
-                  />
-                  <input
-                    className="flex h-10 w-full rounded-md border border-input bg-white px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-accent focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
-                    placeholder="Your Email"
-                    type="email"
-                    required
-                  />
-                  <input
-                    className="flex h-10 w-full rounded-md border border-input bg-white px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-accent focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
-                    placeholder="Your Business"
-                    type="text"
-                    required
-                  />
-                  <Button
-                    type="submit"
-                    className="w-full bg-brand-accent hover:bg-brand-accent/90 text-white"
-                  >
-                    Book a Free Demo
-                  </Button>
-                </form>
-              </div>
+              <ContactForm />
             </div>
           </div>
         </section>
