@@ -60,6 +60,7 @@ const config = {
       },
       fontFamily: {
         dela: ["Dela Gothic One", "cursive"],
+        oswald: ["Oswald", "sans-serif"],
       },
       borderRadius: {
         lg: "var(--radius)",

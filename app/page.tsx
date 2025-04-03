@@ -65,7 +65,7 @@ export default function Home() {
                   AI for your small business
                 </h1>
                 <p className="mx-auto max-w-[700px] text-gray-700 md:text-xl">
-                  Bring the power ofAI into your business without the faff.
+                  Bring the power of AI into your business without the faff.
                 </p>
               </div>
               <div className="space-x-4">
@@ -95,7 +95,7 @@ export default function Home() {
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <h2 className="text-3xl font-dela tracking-tighter sm:text-5xl">
+                <h2 className="text-3xl font-oswald tracking-tighter sm:text-5xl font-bold">
                   🛠️ What We Offer
                 </h2>
                 <p className="max-w-[900px] text-gray-700 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
@@ -108,7 +108,7 @@ export default function Home() {
               {/* Service 1 */}
               <Card className="flex flex-col items-center text-center border-brand-accent/20">
                 <CardHeader>
-                  <CardTitle className="text-xl font-dela">
+                  <CardTitle className="text-xl font-oswald">
                     📸 Social Media Caption Generator
                   </CardTitle>
                 </CardHeader>
@@ -124,7 +124,7 @@ export default function Home() {
               {/* Service 2 */}
               <Card className="flex flex-col items-center text-center border-brand-accent/20">
                 <CardHeader>
-                  <CardTitle className="text-xl font-dela">
+                  <CardTitle className="text-xl font-oswald">
                     🤖 AI-Powered FAQ Bot
                   </CardTitle>
                 </CardHeader>
@@ -140,7 +140,7 @@ export default function Home() {
               {/* Service 3 */}
               <Card className="flex flex-col items-center text-center border-brand-accent/20">
                 <CardHeader>
-                  <CardTitle className="text-xl font-dela">
+                  <CardTitle className="text-xl font-oswald">
                     📥 Smart Inbox Assistant
                   </CardTitle>
                 </CardHeader>
@@ -161,7 +161,7 @@ export default function Home() {
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <h2 className="text-3xl font-dela tracking-tighter sm:text-5xl">
+                <h2 className="text-3xl font-oswald tracking-tighter sm:text-5xl font-bold">
                   💼 Who It's For
                 </h2>
                 <p className="max-w-[900px] text-gray-700 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
@@ -172,19 +172,19 @@ export default function Home() {
             </div>
             <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 md:grid-cols-3 lg:gap-12 mt-12">
               <div className="flex flex-col items-center space-y-2 border border-brand-accent/20 rounded-lg p-6 bg-white">
-                <h3 className="text-xl font-dela">Local shops & salons</h3>
+                <h3 className="text-xl font-oswald">Local shops & salons</h3>
                 <p className="text-gray-700">
                   Enhance customer engagement and streamline operations.
                 </p>
               </div>
               <div className="flex flex-col items-center space-y-2 border border-brand-accent/20 rounded-lg p-6 bg-white">
-                <h3 className="text-xl font-dela">Service providers</h3>
+                <h3 className="text-xl font-oswald">Service providers</h3>
                 <p className="text-gray-700">
                   Tradespeople, estate agents, wellness professionals, and more.
                 </p>
               </div>
               <div className="flex flex-col items-center space-y-2 border border-brand-accent/20 rounded-lg p-6 bg-white">
-                <h3 className="text-xl font-dela">Small teams</h3>
+                <h3 className="text-xl font-oswald">Small teams</h3>
                 <p className="text-gray-700">
                   Who need to save time and boost customer experience.
                 </p>
@@ -201,7 +201,7 @@ export default function Home() {
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <h2 className="text-3xl font-dela tracking-tighter sm:text-5xl">
+                <h2 className="text-3xl font-oswald tracking-tighter sm:text-5xl font-bold">
                   💰 Pricing Plans
                 </h2>
                 <p className="max-w-[900px] text-gray-700 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
@@ -213,7 +213,7 @@ export default function Home() {
               {/* Starter Plan */}
               <Card className="flex flex-col border-brand-accent/20">
                 <CardHeader>
-                  <CardTitle className="font-dela">Starter</CardTitle>
+                  <CardTitle className="font-oswald">Starter</CardTitle>
                   <CardDescription>
                     For businesses just getting started with AI
                   </CardDescription>
@@ -241,7 +241,7 @@ export default function Home() {
               {/* Pro Plan */}
               <Card className="flex flex-col border-2 border-brand-accent">
                 <CardHeader>
-                  <CardTitle className="font-dela">Pro</CardTitle>
+                  <CardTitle className="font-oswald">Pro</CardTitle>
                   <CardDescription>
                     Our most popular plan for small businesses
                   </CardDescription>
@@ -273,7 +273,7 @@ export default function Home() {
               {/* All-In Plan */}
               <Card className="flex flex-col border-brand-accent/20">
                 <CardHeader>
-                  <CardTitle className="font-dela">All-In</CardTitle>
+                  <CardTitle className="font-oswald">All-In</CardTitle>
                   <CardDescription>
                     Complete AI solution for your business
                   </CardDescription>
@@ -314,7 +314,7 @@ export default function Home() {
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <h2 className="text-3xl font-dela tracking-tighter sm:text-5xl">
+                <h2 className="text-3xl font-oswald tracking-tighter sm:text-5xl font-bold">
                   🚀 Ready to Get Started?
                 </h2>
                 <p className="max-w-[600px] text-gray-700 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
