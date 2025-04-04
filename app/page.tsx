@@ -140,14 +140,14 @@ export default function Home() {
               <Card className="flex flex-col items-center text-center border-brand-accent/20">
                 <CardHeader>
                   <CardTitle className="text-xl font-oswald">
-                    🤖 Customer Support Sidekick
+                    🤖 WhatsApp Sidekick
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-700">
-                    Tired of answering the same questions? We build a chatbot
-                    that lives on your site and answers 90% of common questions
-                    — 24/7.
+                    Never miss a message again. Our WhatsApp bot handles
+                    customer inquiries instantly, even when you're offline,
+                    keeping your business running 24/7.
                   </p>
                 </CardContent>
               </Card>
